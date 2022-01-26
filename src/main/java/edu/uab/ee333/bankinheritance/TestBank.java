@@ -17,7 +17,7 @@ public class TestBank {
    */
   public static void main(String[] args) {
 
-    CheckingAccount mine = new CheckingAccount("David Green", 200000);
+    CheckingAccount mine = new CheckingAccount("James Terry", 200100);
     System.out.println("The account has " + mine.getBalance());
     System.out.println(mine);
 
@@ -28,7 +28,7 @@ public class TestBank {
     System.out.println(mine);
 
     // trying to remove too much
-    boolean status = mine.withdraw(200000);
+    boolean status = mine.withdraw(200100);
     System.out.println(mine);
     System.out.println("Withdraw returned " + status);
 
